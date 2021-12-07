@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Autolayout_Practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eDt-f2-PPx">
+                                <rect key="frame" x="20" y="64" width="177" height="778"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="geQ-hZ-DdE">
+                                <rect key="frame" x="217" y="64" width="177" height="778"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="geQ-hZ-DdE" firstAttribute="width" secondItem="eDt-f2-PPx" secondAttribute="width" id="36B-7z-Bw5"/>
+                            <constraint firstItem="geQ-hZ-DdE" firstAttribute="leading" secondItem="eDt-f2-PPx" secondAttribute="trailing" constant="20" id="3bu-8p-Sey"/>
+                            <constraint firstItem="eDt-f2-PPx" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-20" id="9am-My-ty7"/>
+                            <constraint firstItem="eDt-f2-PPx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Bc4-bA-f9C"/>
+                            <constraint firstItem="eDt-f2-PPx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="UPP-PK-EMi"/>
+                            <constraint firstItem="geQ-hZ-DdE" firstAttribute="leading" secondItem="eDt-f2-PPx" secondAttribute="trailing" constant="20" id="VTz-tK-3a9"/>
+                            <constraint firstItem="geQ-hZ-DdE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="VaO-Ru-3yf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="geQ-hZ-DdE" secondAttribute="trailing" constant="20" id="av8-1W-0RL"/>
+                            <constraint firstItem="geQ-hZ-DdE" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-20" id="nou-zH-0Qe"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
